@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>Moanalua Gardens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <div class="bg-image" 
+        style="background-image: url('images/moanalua.jpg');
+                background-size: cover;
+                background-position: center center;
+                height: 100vh;">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+            <a href="#"
+            class="navbar-brand mb-0 h1">
+            <img class="d-inline-block align-top">"Aloha, from the Gardens."</a>
+            <button type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            class="navbar-toggler"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div 
+                class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <a href="#" class="nav-link">
+                        Home
+                    </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">
+                        Map
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link
+                        dropdown-toggle"
+                        id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        >
+                        Explore
+                        </a>
+                        <ul class="dropdown-menu"
+                        aria-labelled-by="navbarDropdown">
+                        <li><a href="#"
+                        class="dropdown-item">Hours</a></li>
+                        <li><a href="#"
+                        class="dropdown-item">Activities</a></li>
+                        <li><a href="#"
+                        class="dropdown-item">Events</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">
+                        Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-outline-success">Search</button>
+            </form>
+        </nav>
+        <div class="container">
+            <h1 class="display-1 text-light text-center p-5">
+                Moanalua Gardens Park
+            </h1>
+        </div>
+        <div class="container">
+            <div class="row justify-content-around p-3">
+                <div class="col-6 col-lg-3 order-2"> 
+                    <div class="card bg-success border-dark">
+                        <img src="images/map.jpg" class="card-img-top" alt="map">
+                        <div class="card-body">
+                        <h5 class="card-title text-light">Map to the Gardens</h5>
+                        <a href="#" class="btn btn-dark">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 order-1">
+                    <div class="card bg-success">
+                        <div id="carouselExampleControls" class="carousel slide card-img-top" data-bs-ride="carousel">
+                            <div class="carousel-inner border border-dark border-rounded">
+                                <div class="carousel-item active">
+                                    <img src="images/building.png" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/hitachi.jpg" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/steps.jpg" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/tree.jpg" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/hula.jpg" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/sign.jpg" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/flower.webp" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title text-light">Gallery</h5>
+                        <a href="#" class="btn btn-dark">View</a>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark border p-3 border-dark">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.text{
+    position:absolute;
+}
+
+.carousel img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    }
+
+.card{
+    height: 100%;
+    overflow: hidden;
+}
